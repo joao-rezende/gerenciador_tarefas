@@ -1,0 +1,146 @@
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 45%;
+  color: #395B64;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #1e3136;
+  border-color: #1e3136;
+}
+
+.descriptionButtons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.card p svg {
+  margin-right: 3px;
+}
+
+.greenText {
+  color: mediumseagreen;
+}
+
+.yellowText {
+  color: #FAB005;
+}
+
+.name {
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  border: none;
+  color: #395B64;
+  font-weight: bold;
+  max-width: 310px;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  display: block;
+}
+
+.name:focus, .deadline:focus {
+  outline: none;
+}
+
+.deadline {
+  background-color: transparent;
+  font-size: 0.95rem;
+  padding: 0;
+  max-width: 310px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  border: none;
+  color: #395B64;
+  display: block;
+}
+
+.buttonTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonTask button {
+  display: none;
+}
+
+.card:hover .buttonTask button {
+  display: block;
+}
+
+.operationButtons {
+  text-align: right;
+  position: relative;
+}
+
+.save, .cancel, .conclude, .delete {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  line-height: 1;
+  height: 28px;
+}
+
+.conclude:focus, .delete:focus,
+.conclude:active, .delete:active,
+.save:focus, .cancel:focus,
+.save:active, .cancel:active {
+  outline: none;
+}
+
+.save, .conclude {
+  color: #3cb371;
+}
+
+.save {
+  font-size: 18px;
+}
+
+.conclude {
+  font-size: 18px;
+}
+
+.cancel, .delete {
+  color: #dc3545;
+}
+
+.cancel {
+  font-size: 25px;
+  position: absolute;
+  top: 0px;
+  right: 28px;
+}
+
+.delete {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.loading {
+  padding: 0 5px;
+  margin-left: 5px;
+  line-height: 28px;
+}

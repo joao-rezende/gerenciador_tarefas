@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .loading {
@@ -40,7 +40,7 @@
 
 .footer {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
@@ -102,43 +102,9 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  min-width: 800px;
   max-width: 800px;
   margin-top: 3rem;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
-  color: #395B64;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #1e3136;
-  border-color: #1e3136;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.card p svg {
-  margin-right: 3px;
 }
 
 .logo {
@@ -151,14 +117,6 @@
     width: 100%;
     flex-direction: column;
   }
-}
-
-.greenText {
-  color: mediumseagreen;
-}
-
-.yellowText {
-  color: #FAB005;
 }
 
 .addButton {
