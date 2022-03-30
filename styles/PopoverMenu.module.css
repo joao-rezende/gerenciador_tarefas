@@ -1,0 +1,35 @@
+.btnToggle {
+  padding: 3px 8px;
+  font-size: 19px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #AAA;
+}
+
+.content {
+  transform: translate(-2px, -23px);
+  background-color: #fff;
+  color: rgb(51, 51, 51);
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 5px;
+  box-shadow: rgb(27 31 35 / 15%) -6px -7px 15px;
+  list-style: none;
+  padding: 4px 0px;
+  min-width: 120px;
+}
+
+.content li {
+  list-style: none;
+  padding: 4px 8px 4px 16px;
+  overflow: hidden;
+  color: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.content li:hover {
+  background-color: #F3F3F3;
+}

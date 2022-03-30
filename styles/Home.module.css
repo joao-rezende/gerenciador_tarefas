@@ -8,7 +8,7 @@
   min-height: 100vh;
 }
 
-.loading {
+.error, .loading {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -21,11 +21,25 @@
   color: #395B64;
 }
 
+.error svg {
+  margin-top: -50px;
+  font-size: 270px;
+  color: rgb(90, 23, 23);
+}
+
 .loading svg {
   font-size: 170px;
 }
 
-.loading p {
+.error p {
+  text-align: center;
+  margin: 0;
+  margin-top: -20px;
+  font-size: 20px;
+  color: rgb(165, 41, 41);
+}
+
+.error p, .loading p {
   font-weight: bold;
 }
 

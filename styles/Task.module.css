@@ -60,11 +60,11 @@
   display: block;
 }
 
-.name:focus, .deadline:focus {
+.name:focus, .period:focus {
   outline: none;
 }
 
-.deadline {
+.period {
   background-color: transparent;
   font-size: 0.95rem;
   padding: 0;
